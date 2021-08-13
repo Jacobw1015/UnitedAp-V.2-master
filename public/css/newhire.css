@@ -87,10 +87,6 @@ td, th{
 
 /* Search bar formatting */
 
-div#search{
-	margin: 0 auto;
-	text-align: center;
-}
 tr.header{
 	font-weight: bold;
 	border:solid 2px;

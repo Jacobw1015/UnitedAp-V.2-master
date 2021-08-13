@@ -6,8 +6,7 @@ const path = require('path');
 const {writeData,getData,getHeaders}=require('./public/js/index')
 const {Applicant} = require('./public/js/appData')
 const {objToArray} = require('./public/js/object');
-const { get } = require('http');
-const { getHeapSpaceStatistics } = require('v8');
+
 
 // Javascript files
 router.get('/javascript',(req,res)=>{
