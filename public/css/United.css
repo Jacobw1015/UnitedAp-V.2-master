@@ -1,0 +1,362 @@
+
+html#diff{background-color: #03c0c1;font-family: "Georgia";}
+.chart{text-align: center;display:block;}
+p.chart{line-height: 0px;margin-top:-5px;}
+
+table.middlemanage{
+	position:relative;
+	margin: 0 auto;
+	text-align: center;
+	display:flex;
+	justify-content: space-evenly;
+}
+.middlemanage h2{
+	
+	padding-left: 30px;
+	padding-right: 30px;
+	
+}
+div.heaven, table.heaven{
+	margin: 0 auto;
+	text-align: center;
+}
+table.heaven td{
+	padding:0px 30px;
+}
+
+img.dylan{
+	width: 195px;
+	height: 200px;
+}
+ .chart1{
+	 display:inline-block;
+	 text-align:center;
+ }
+ p.chart1,.chart1-1{
+	 line-height:20px;
+	padding:10px;
+	font-size:18px;
+ }
+ p.chart1-1{
+	 text-align:center;
+ }
+ img.chart1{
+	 border-radius:25px;
+	 display:block;
+	 width: 125px;
+	 white-space:nowrap;
+	 margin-left:100px;
+ }
+ img.juan.chart1{
+	 width:200px;
+ }
+ td img.juan.chart1{
+	margin-left:275px;
+}
+ h3.chart1{
+	 display:block;
+	 text-align:center;
+	 margin: 0 auto;
+ }
+ table#emp{
+	 position:relative;
+	margin: 0 auto;
+	text-align: center;
+	display:flex;
+	justify-content: center;
+ }
+ .brian{
+	 border-radius:35%;
+	 width:15%;
+	 white-space:nowrap;
+	 display:block;
+ }
+h1.title {
+text-align: center;
+margin: auto;
+min-width:150px;
+max-width: 425px;
+}
+h1#home{
+	background-color: bisque;
+}
+h1#game{
+background-color: lime;
+margin-bottom:10px;
+text-align: center;
+cursor: pointer;
+}
+.pete h2{
+text-align: left;
+margin-right: 800px;
+padding-right: 0px;
+position: relative;
+min-width: 200px;
+}
+.pete h2:hover{
+color: yellow;
+}
+html{
+	height:100%;
+	margin: auto;
+	width:100%;
+	overflow: scroll;
+background-color: #FFC0CB;
+}
+html#different{
+	height:100%;
+	margin: auto;
+	width:100%;
+	overflow: scroll;
+background-color: rgba(0,0,250,0.2);
+z-index:1;
+}
+.pete img{
+text-align: left;
+width: 400px;
+display:block;
+border: 3px solid red;
+margin-left: 10px; 
+z-index:10;
+}
+.pete img:hover{
+border: 3px solid blue;
+}
+p{
+font-size: 24px;
+}
+p.message{
+text-align: right;
+margin: 0px;
+
+}
+span.name{
+text-align: right;
+margin: 10px;
+font-size:24px;
+}
+div.message-name{
+top: -250px;
+margin-right:30px;
+margin-left:500px;
+text-align: right;
+position: relative;
+z-index:1;
+
+}
+h4{
+text-align: center;
+font-size:32px;
+margin-top: 1px;
+color: #adff2f;
+background-color: blue;
+max-width: 425px;
+margin: 0 auto;
+}
+div.ball{
+	position:relative;
+	text-align:center;
+	align-items: center;
+	justify-content:center;
+	margin:0 auto;
+}
+h5#new-element{
+display:inline-block;
+width:250px;
+height: 250px;
+padding: 10px;
+margin: 0 auto;
+z-index: 9;
+background-color:white;
+border: 2px solid black;
+border-radius: 100%;
+position: absolute;
+top:50%;
+bottom:50%;
+transform:translate(-50%,-50%);
+}
+.butt2{
+	display: inline;
+	margin-left:38%;margin-top:35px;
+}
+#button3{
+	
+	
+}
+#button1{
+margin: 0 auto;
+display:inline-block;
+font-size: 16px;
+text-align:center;
+z-index:10;
+position:relative;
+
+margin-left: 300px;
+top: 65px;
+}
+nav a{
+margin-left: 15px;
+font-size: 16px;
+color: white;
+font-weight: bold;
+background-color: purple;
+position:fixed;
+height: auto;
+z-index:9;
+}
+.tic{
+	background-color: black;
+	font-size:24px;
+	height: 100px;
+	width: 80px;
+	
+	
+	text-align: center;
+	
+
+}
+.tic-tac{
+	
+	margin: 0 auto;
+	width: 500px;
+	height:213px;
+	
+	
+}
+div#gametable{
+	margin: auto;
+	/*margin-left: 50%;
+	margin-right:50%;*/
+	width:500px;
+}
+#player-turn{
+	text-align: center;
+	border: 2px solid black;
+	width: 200px;
+	margin: 0 auto;
+	margin-top: 25px;
+	margin-bottom: -15px;
+	cursor: pointer;
+
+}
+#winner{
+	
+	text-align:center;
+}
+.stats{
+	padding:20px;
+	
+}
+.firstplayer{
+	border: 1px solid blue;
+}
+.secondplayer{
+	border: 1px solid red;
+}
+div#rules{
+	position:absolute;
+}
+#Player1{z-index:1;}
+#Player2{
+	margin-top:-130px;
+	float:right;
+}
+td.firstplayer{
+	font-size: 32px;
+}
+td.secondplayer{
+	font-size: 32px;
+}
+@media only screen and (max-width: 1360px){
+	#button3{
+		
+	}
+	td.secondplayer{
+	font-size: 20px;
+}
+	td.firstplayer{
+	font-size: 20px;
+}
+
+	#player-turn{
+	font-size: 16px;
+	text-align:center;
+	border: 2px solid black;
+	height:30px;
+	width: 150px;
+	margin:0 auto;
+	padding-top: 10px;
+	
+	
+}
+	#Player2{
+		margin-top:-99px;
+	}
+	 p.chart1,.chart1-1{
+	 line-height:1px;
+	padding:5px;
+	font-size: 14px;
+ }
+ table.middle{
+	 text-align: center;
+	 margin: 0 auto;
+	
+ }
+ table.middle p{
+	 font-size:14px;
+	 
+ }
+}
+@media only screen and (max-width: 750px){}
+table.middle{
+	 text-align: center;
+	 margin: 0 auto;
+	margin-top:-100px;
+ }
+ /*For New Hire page*/
+html#newhire{
+	background-color: #4b8c61;
+	color: #7c4242;
+}
+div.submit{
+	text-align:center;
+}
+
+.intro{
+	text-align: center;
+	font-size:large;
+}
+
+form.describe{
+	margin-left: 12%;
+}
+section{
+	font-size:large;
+}
+span{
+	font-weight: 700;
+}
+section label{
+	font-weight:700;
+}
+textarea{
+	width: 280px; height: 100px;
+}
+section.coffee{
+	width: 325px;
+	margin: 0 auto;
+	float:center;
+	margin-top: -130px;
+}
+
+section.ref{
+	margin-top: -325px;
+	float: right;
+	margin-right: 12%;
+}
+div.radio{
+	margin-left: 125px;
+}
+section.contactInfo{
+	float: right;
+}

@@ -1,0 +1,97 @@
+ /*For New Hire page*/
+
+nav a{
+margin-left: 15px;
+font-size: 16px;
+color: white;
+font-weight: bold;
+background-color: purple;
+height:auto;
+position:fixed;
+z-index:9;
+
+}
+a.data{
+
+	float:right;
+	position:relative;
+}
+html#newhire{
+	background-color: #4b8c61;
+	color: #7c4242;
+}
+hr{
+	margin-top: 10%;	
+}
+div.submit{
+	text-align:center;
+	margin: auto;
+}
+input.submit{
+	
+	text-align: center;
+}
+.intro{
+	text-align: center;
+	font-size:large;
+}
+
+div.describe{
+	margin-left: 12%;
+}
+section{
+	font-size:large;
+}
+span{
+	font-weight: 700;
+}
+section label{
+	font-weight:700;
+}
+textarea{
+	width: 280px; height: 100px;
+}
+section.coffee{
+	width: 325px;
+	margin: 0 auto;
+	float:center;
+	margin-top: -130px;
+}
+
+section.ref{
+	margin-top: -325px;
+	float: right;
+	margin-right: 12%;
+}
+div.radio{
+	margin-left: 125px;
+}
+section.contactInfo{
+	float: right;
+}
+/*The Data Page*/
+div.data{
+	
+	text-align:center;
+}
+table#data{
+	margin: 0 auto;
+	border: solid 2px;
+	text-align:center;
+	border-collapse: collapse;
+}
+td, th{
+	border: solid 1px;
+	padding:10px;
+}
+
+/* Search bar formatting */
+
+div#search{
+	margin: 0 auto;
+	text-align: center;
+}
+tr.header{
+	font-weight: bold;
+	border:solid 2px;
+}

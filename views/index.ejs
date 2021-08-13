@@ -1,0 +1,55 @@
+
+<!DOCTYPE Html>
+<html id="newhire">
+ <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/css2" rel="stylesheet" type="text/css">
+ <title>
+  Applicant Info
+ </title>
+  <nav><h6><a class="home" href="/newhire">Career Page</a></h6></nav>
+ </head>
+ <body>
+	<div id="search"> 
+	 <form method="GET">
+	  <input name="POI" type="search" placeholder="Type in First and/or Last name" size="30"/>
+	  <button >Search</button>
+     </form>
+	</div>
+	<br>
+
+<div class="data">
+ <table id="data">
+	 <thead>
+		<tr class="header">
+		  
+			  <% head.forEach(ele=>{ %>
+				<td>
+					<%= ele %>
+				</td>
+			 <% }) %> 
+		  
+		  
+		</tr>
+	 </thead>
+	 <tbody>
+		
+		<% for( let i = 0; i < data.length; i++ ) { %>
+			<tr>
+
+			</tr>
+			<% for (let j = 0; j < data[i].length; j++) { %>
+				  <td>
+					<%= data[i][j] %>
+				  </td>	
+			<% } %> 
+		<% } %>
+	
+	 </tbody>
+ </table>
+</div>	
+</body>
+ <script src="/javascript3"></script>
+</html>
