@@ -16,6 +16,9 @@ table.middlemanage{
 	padding-right: 30px;
 	
 }
+table.heaven{
+	display: inline-table;
+}
 div.heaven, table.heaven{
 	margin: 0 auto;
 	text-align: center;
@@ -27,6 +30,16 @@ table.heaven td{
 img.dylan{
 	width: 195px;
 	height: 200px;
+	
+}
+
+img.eric{
+	width: 195px;
+	height: 200px;
+	
+}
+caption.chart1{
+	margin-top: -175px;
 }
  .chart1{
 	 display:inline-block;
@@ -46,7 +59,19 @@ img.dylan{
 	 width: 125px;
 	 white-space:nowrap;
 	 margin-left:100px;
+
  }
+ div#boss img{
+	 text-align: center;
+	 margin: 0 auto;
+	 
+ }
+ div#boss p{
+	padding-top: 20px;
+	 
+ }
+ 
+ 
  img.juan.chart1{
 	 width:200px;
  }

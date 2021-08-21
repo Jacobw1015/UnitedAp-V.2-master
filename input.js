@@ -6,6 +6,7 @@ const port = 5000;
 
 let app = express();
 app.use(express.static(path.join(__dirname,'public','html')));
+app.use(express.static(path.join(__dirname,"public","Heirarchypics")))
 app.set('view engine','ejs');
 app.use(express.urlencoded({extended: true}));
 app.use(express.json());
